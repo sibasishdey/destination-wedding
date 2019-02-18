@@ -705,13 +705,61 @@ textarea.form-control {
 .panel-title > a:focus  {
     text-decoration:none;
 }
+
+.box {
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.12);
+    padding: 20px;
+    font-size: 14px;
+}
+.title {
+    font-weight: bold;
+    display: block;
+}
+.checkAvilPrice {
+    margin: 0;
+    padding: 0;
+}
+.checkAvilPrice label{
+    font-size: 14px;
+   font-weight: normal;
+ 
+   
+}
+.checkAvilPrice p{
+    width: 100%;
+ padding: 10px;
+ margin: 0 0 10px;  
+   border:1px solid #d7d7d7;
+   
+}
+.checkAvilPrice label span {
+   margin: 0 90px 0 0;
+    position: relative;
+    
+   
+}
+
+
+
+.checkAvilPrice p label input{
+    border:none;
+    width: 100%;
+    
+}
+
+.checkAvilPrice p label input[type=checkbox]{
+    border:none;
+    width: auto;
+    
+}
 /**================= Main body Styles Ends Here =================**/
 
 
 /**================= Footer Styles Starts Here =================**/
 
 footer {
-    padding: 30px 0 0
+    padding: 30px 0 0;
+    margin: 30px 0 0 ;
 }
 
 footer h4 {
@@ -719,7 +767,7 @@ footer h4 {
 }
 
 footer .form-group label {
-    color: #d7d5df
+    color: #d7d5df;
 }
 
 footer .form-group .more {
@@ -727,35 +775,35 @@ footer .form-group .more {
     width: 206px;
     height: 44px;
     padding: 0 0;
-    margin: 10px 0 0
+    margin: 10px 0 0;
 }
 
 footer form.max-330 {
-    margin: 10px 0 0
+    margin: 10px 0 0;
 }
 
 .footer-list {
-    margin: 8px 0 40px
+    margin: 8px 0 40px;
 }
 
 .footer-list li {
-    line-height: 36px
+    line-height: 36px;
 }
 
 .footer-list li a {
-    color: #fff
+    color: #fff;
 }
 
 .footer-list li a img {
-    margin-right: 3px
+    margin-right: 3px;
 }
 
 .footer-list li a:hover {
-    color: #ed1c24
+    color: #ed1c24;
 }
 
 .footer-list.social-list {
-    margin: 8px 0 120px
+    margin: 8px 0 120px;
 }
 
 .copy-right {
